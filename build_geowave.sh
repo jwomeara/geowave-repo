@@ -44,34 +44,34 @@ cd geowave
 #git clean -dxf
 #mvn -T 2C -DskipTests clean package
 
-git reset --hard
-git checkout tags/v0.8.7
-git clean -dxf
-mvn -T 2C -DskipTests clean package
+#git reset --hard
+#git checkout tags/v0.8.7
+#git clean -dxf
+#mvn -T 2C -DskipTests clean package
 
-git reset --hard
-git checkout tags/v0.8.8
-git clean -dxf
-cd dev-resources
-mvn -T 2C -DskipTests clean package
-cd ..
-mvn -T 2C -DskipTests clean package
+#git reset --hard
+#git checkout tags/v0.8.8
+#git clean -dxf
+#cd dev-resources
+#mvn -T 2C -DskipTests clean package
+#cd ..
+#mvn -T 2C -DskipTests clean package
 
-git reset --hard
-git checkout tags/v0.8.8.1
-git clean -dxf
-cd dev-resources
-mvn -T 2C -DskipTests clean package
-cd ..
-mvn -T 2C -DskipTests clean package
+#git reset --hard
+#git checkout tags/v0.8.8.1
+#git clean -dxf
+#cd dev-resources
+#mvn -T 2C -DskipTests clean package
+#cd ..
+#mvn -T 2C -DskipTests clean package
 
-git reset --hard
-git checkout tags/v0.8.9
-git clean -dxf
-cd dev-resources
-mvn -T 2C -DskipTests clean package
-cd ..
-mvn -T 2C -DskipTests clean package
+#git reset --hard
+#git checkout tags/v0.8.9
+#git clean -dxf
+#cd dev-resources
+#mvn -T 2C -DskipTests clean package
+#cd ..
+#mvn -T 2C -DskipTests clean package
 
 git reset --hard
 git checkout tags/v0.9.0
