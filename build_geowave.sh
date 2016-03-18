@@ -77,17 +77,17 @@ git reset --hard
 git checkout tags/v0.9.0
 git clean -dxf
 cd dev-resources
-mvn -q -T 2C -DskipTests clean package
+mvn -q -T 2C -DskipTests clean install
 cd ..
-mvn -q -T 2C -DskipTests clean package
+mvn -q -T 2C -DskipTests clean install
 
-git reset --hard
-git checkout tags/v0.9.0.1
-git clean -dxf
-cd dev-resources
-mvn -q -T 2C -DskipTests clean package
-cd ..
-mvn -q -T 2C -DskipTests clean package
+#git reset --hard
+#git checkout tags/v0.9.0.1
+#git clean -dxf
+#cd dev-resources
+#mvn -q -T 2C -DskipTests clean install
+#cd ..
+#mvn -q -T 2C -DskipTests clean install
 
 cd ..
 
