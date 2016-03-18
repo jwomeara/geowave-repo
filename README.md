@@ -1,4 +1,3 @@
 # geowave-repo
 
 README
-run!
