@@ -77,24 +77,24 @@ git reset --hard
 git checkout tags/v0.9.0
 git clean -dxf
 cd dev-resources
-mvn -T 2C -DskipTests clean package
+mvn -q -T 2C -DskipTests clean package dependency:go-offline
 cd ..
-mvn -T 2C -DskipTests clean package
+mvn -q -T 2C -DskipTests clean package dependency:go-offline
 
 git reset --hard
 git checkout tags/v0.9.0.1
 git clean -dxf
 cd dev-resources
-mvn -T 2C -DskipTests clean package
+mvn -q -T 2C -DskipTests clean package dependency:go-offline
 cd ..
-mvn -T 2C -DskipTests clean package
+mvn -q -T 2C -DskipTests clean package dependency:go-offline
 
 cd ..
 
-# tar m2 repo
-# tar -czf geowave-repo.tar.gz $HOME/.m2
+# zip m2 repo
+zip -r geowave-repo.zip $HOME/.m2
 
 # commit to project
-# git add geowave-repo.tar.gz
-# git commit -m "Added m2 repo"
-# git push -u origin master
+git add geowave-repo.zip
+git commit -m "Added m2 repo"
+git push -u origin master
