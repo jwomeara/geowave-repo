@@ -9,40 +9,40 @@ cd geowave
 #git clean -dxf
 #mvn -T 2C -DskipTests clean package dependency:go-offline
 
-git reset --hard
-git checkout tags/v0.8.0
-git clean -dxf
-mvn -T 2C -DskipTests clean package
+#git reset --hard
+#git checkout tags/v0.8.0
+#git clean -dxf
+#mvn -T 2C -DskipTests clean package
 
-git reset --hard
-git checkout tags/v0.8.1
-git clean -dxf
-mvn -T 2C -DskipTests clean package
+#git reset --hard
+#git checkout tags/v0.8.1
+#git clean -dxf
+#mvn -T 2C -DskipTests clean package
 
-git reset --hard
-git checkout tags/v0.8.2
-git clean -dxf
-mvn -T 2C -DskipTests clean package
+#git reset --hard
+#git checkout tags/v0.8.2
+#git clean -dxf
+#mvn -T 2C -DskipTests clean package
 
-git reset --hard
-git checkout tags/v0.8.3
-git clean -dxf
-mvn -T 2C -DskipTests clean package
+#git reset --hard
+#git checkout tags/v0.8.3
+#git clean -dxf
+#mvn -T 2C -DskipTests clean package
 
-git reset --hard
-git checkout tags/v0.8.4
-git clean -dxf
-mvn -T 2C -DskipTests clean package
+#git reset --hard
+#git checkout tags/v0.8.4
+#git clean -dxf
+#mvn -T 2C -DskipTests clean package
 
-git reset --hard
-git checkout tags/v0.8.5
-git clean -dxf
-mvn -T 2C -DskipTests clean package
+#git reset --hard
+#git checkout tags/v0.8.5
+#git clean -dxf
+#mvn -T 2C -DskipTests clean package
 
-git reset --hard
-git checkout tags/v0.8.6
-git clean -dxf
-mvn -T 2C -DskipTests clean package
+#git reset --hard
+#git checkout tags/v0.8.6
+#git clean -dxf
+#mvn -T 2C -DskipTests clean package
 
 git reset --hard
 git checkout tags/v0.8.7
